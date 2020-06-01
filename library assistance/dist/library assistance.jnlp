@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="library assistance.jnlp">
+  <information>
+    <title>library assistance</title>
+    <vendor>Harshit</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="lib\gson-2.8.6.jar" size="240255" download="eager" />
+    <jar href="lib\jfoenix-8.0.1.jar" size="2405714" download="eager" />
+    <jar href="lib\jfoenix-9.0.9.jar" size="2414624" download="eager" />
+    <jar href="lib\mysql-connector-java-8.0.20.jar" size="2385601" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="library.assistance.ui.Main.MainHandler"  name="library assistance" />
+  <update check="always"/>
+</jnlp>

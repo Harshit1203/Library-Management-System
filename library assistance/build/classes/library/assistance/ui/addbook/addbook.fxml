@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="403.0" prefWidth="530.0" stylesheets="@addbooks.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="library.assistance.ui.addbook.AddbookController">
+    <children>
+      <VBox layoutX="153.0" layoutY="41.0" prefHeight="439.0" prefWidth="529.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <TextField fx:id="id" opacity="0.7" promptText="BOOK ID">
+               <VBox.margin>
+                  <Insets bottom="5.0" left="10.0" right="10.0" top="40.0" />
+               </VBox.margin>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+            </TextField>
+            <TextField fx:id="name" opacity="0.7" promptText="BOOK NAME">
+               <VBox.margin>
+                  <Insets left="10.0" right="10.0" top="20.0" />
+               </VBox.margin>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+               <effect>
+                  <Blend />
+               </effect>
+            </TextField>
+            <TextField fx:id="author" opacity="0.7" promptText="AUTHOR">
+               <VBox.margin>
+                  <Insets left="10.0" right="10.0" top="20.0" />
+               </VBox.margin>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+               <effect>
+                  <Blend />
+               </effect>
+            </TextField>
+            <TextField fx:id="isbn" opacity="0.7" promptText="ISBN">
+               <VBox.margin>
+                  <Insets left="10.0" right="10.0" top="20.0" />
+               </VBox.margin>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+               <effect>
+                  <Blend />
+               </effect>
+            </TextField>
+            <TextField fx:id="publisher" opacity="0.7" promptText="PUBLISHER">
+               <VBox.margin>
+                  <Insets left="10.0" right="10.0" top="20.0" />
+               </VBox.margin>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+               <effect>
+                  <Blend />
+               </effect>
+            </TextField>
+            <TextField fx:id="price" opacity="0.7" promptText="PRICE">
+               <VBox.margin>
+                  <Insets bottom="30.0" left="10.0" right="10.0" top="20.0" />
+               </VBox.margin>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+               <effect>
+                  <Blend />
+               </effect>
+            </TextField>
+            <HBox prefHeight="74.0" prefWidth="523.0">
+               <children>
+                  <Button fx:id="savebutton" mnemonicParsing="false" onAction="#addbook" prefHeight="75.0" prefWidth="274.0" styleClass="save" stylesheets="@addbooks.css" text="Save" textAlignment="CENTER" />
+                  <Button fx:id="cancelbutton" mnemonicParsing="false" onAction="#cancel" prefHeight="81.0" prefWidth="265.0" styleClass="cancel" stylesheets="@addbooks.css" text="Cancel" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+    </children>
+</AnchorPane>

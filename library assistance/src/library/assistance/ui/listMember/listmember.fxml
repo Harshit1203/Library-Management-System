@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="library.assistance.ui.listMember.ListmemberController">
+    <stylesheets>
+        <URL value="@listmember.css" />
+    </stylesheets>
+   <children>
+      <TableView fx:id="tableview" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columns>
+          <TableColumn fx:id="sn" prefWidth="47.0" text="S/N" />
+          <TableColumn fx:id="idcol" prefWidth="103.0" text="ID" />
+            <TableColumn fx:id="namecol" prefWidth="142.0" text="Name" />
+            <TableColumn fx:id="emailcol" prefWidth="142.0" text="Email" />
+            <TableColumn fx:id="numcol" minWidth="0.0" prefWidth="165.0" text="Phone No." />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

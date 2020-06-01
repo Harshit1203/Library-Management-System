@@ -1,0 +1,1 @@
+{"minwithoutFine":10,"fineAmount":8,"username":"admin","password":"1234"}

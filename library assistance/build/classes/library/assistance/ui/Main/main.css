@@ -1,0 +1,25 @@
+
+.mainFxmlClass {
+
+}
+
+.setupbutton{
+    -fx-background-color: #222831;
+    -fx-text-fill:white;
+}
+
+.setupbutton:hover{
+    -fx-background-color:#1b6ca8;
+}
+
+.bookhbox{
+    -fx-background-color: dae1e7;
+}
+
+.menuButton{
+    -fx-background-color:#1b6ca8 ;
+}
+
+.menuButton:hover{
+    -fx-background-color:#0a97b0;
+}

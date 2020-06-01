@@ -1,0 +1,27 @@
+.button{
+ -fx-background-color:#1b6ca8 ;
+ -fx-text-fill: white;
+ 
+}
+.save:hover{
+    -fx-background-color:#21bf73;
+}
+.cancel:hover{
+    -fx-background-color: #f38181;
+   
+}
+
+.root{
+    -fx-background-color:#393e46; 
+}
+
+.text-field{
+    -fx-background-color: #393e46;
+    -fx-text-fill: #f7f7f7;
+    -fx-border-color: #f7f7f7;
+    -fx-border-width: 0 0 1px 0; 
+    -fx-background-color: transparent; 
+}
+
+
+

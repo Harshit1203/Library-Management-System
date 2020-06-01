@@ -1,0 +1,24 @@
+.button{
+ -fx-background-color:#1b6ca8 ;
+ -fx-text-fill: white;
+ 
+}
+.button:hover{
+    -fx-background-color:#0a97b0;
+}
+
+.root{
+    -fx-background-color:#393e46; 
+}
+
+.text-field{
+    -fx-background-color: #393e46;
+    -fx-text-fill: white;
+    -fx-border-color: #f7f7f7;
+    -fx-border-width: 0 0 1px 0; 
+    -fx-background-color: transparent; 
+}
+
+
+
+
